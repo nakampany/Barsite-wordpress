@@ -1,46 +1,7 @@
 <?php get_header(); ?>
 
 <div class="container">
-    <!-- blog  -->
-    <section>
-        <h1 class="heading fadeUpTrigger">BLOG</h1>
 
-        <?php if (have_posts()) :
-            while (have_posts()) : the_post() ?>
-                <div class="row g-4 fadeUpTrigger" id="<?php the_ID(); ?>" <?php post_class('news'); ?>>
-
-                    <figure class="col-lg-4 col-sm-6">
-                        <a href="<?php the_permalink() ?>">
-                            <div class="project pro-1 category">
-                                <?php the_category(); ?>
-                                <?php if (have_posts()) : ?>
-                                    <?php the_post_thumbnail('thumbnail'); ?>
-                                <?php else : ?>
-                                    <img src="https://nakampany.website/wp-content/uploads/2022/10/BH7C6703-scaled.jpg" alt="">
-                                <?php endif; ?>
-                                <div class="overlay">
-                                    <div>
-                                        <h4 class="text-white"><?php the_title(); ?></h4>
-                                        <h6 class="text-white"><?php the_excerpt(); ?></h6>
-                                        <time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('Y年m月d日(l)'); ?></time>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </figure>
-
-                </div>
-        <?php endwhile;
-        endif; ?>
-
-        <div class="blog-button fadeUpTrigger">
-            <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="20px" viewBox="0 0 300 500">
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-            </svg>
-            <a class="btn btn-more">MORE...</a>
-        </div>
-    </section>
     <!-- about  -->
     <section>
         <h1 class="heading fadeUpTrigger">ABOUT</h1>
