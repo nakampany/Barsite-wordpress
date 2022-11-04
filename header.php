@@ -38,10 +38,10 @@
             <nav id="" class="header-nav d-flex row align-items-center">
                 <a href="" class="col-2"><img src="https://nakampany.website/wp-content/uploads/2022/10/logo.jpg" alt=""></a>
                 <ul class="col-10 d-flex justify-content-end">
-                    <li><a href="#sec01" class="btn">BLOG</a></li>
-                    <li><a href="#sec02" class="btn">ABOUT</a></li>
-                    <li><a href="#sec03" class="btn">MENU</a></li>
-                    <li><a href="#sec04" class="btn">INFO</a></li>
+                    <li><a href="blog" class="btn">BLOG</a></li>
+                    <li><a href="about" class="btn">ABOUT</a></li>
+                    <li><a href="menu" class="btn">MENU</a></li>
+                    <li><a href="info" class="btn">INFO</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,22 +53,14 @@
             <!--ここからメニュー-->
             <div class="menu-content">
                 <ul>
-                    <li class="menu-item"><a href="#sec01" class="btn">BLOG</a></li>
-                    <li class="menu-item"><a href="#sec02" class="btn">ABOUT</a></li>
-                    <li class="menu-item"><a href="#sec03" class="btn">MENU</a></li>
-                    <li class="menu-item"><a href="#sec04" class="btn">INFO</a></li>
+                    <li class="menu-item"><a href="blog" class="btn">BLOG</a></li>
+                    <li class="menu-item"><a href="about" class="btn">ABOUT</a></li>
+                    <li class="menu-item"><a href="menu" class="btn">MENU</a></li>
+                    <li class="menu-item"><a href="info" class="btn">INFO</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
-    <?php if (is_home()) : ?>
-        <!-- main  -->
-        <div id="mainImg">
-            <div class="mainTittle d-flex justify-content-center">
-                <h1>Bar Cloud</h1>
-            </div>
-        </div>
-    <?php endif; ?>
 
     <?php wp_head(); ?>

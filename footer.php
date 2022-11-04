@@ -1,5 +1,11 @@
 <?php wp_footer(); ?>
 
+<div class="LINE">
+    <a href="https://lin.ee/4CemrXl" target="_blank" rel="noopener" class="project">
+        <img src="https://nakampany.website/wp-content/uploads/2022/10/LINE.jpg" alt="LINE友だち追加">
+    </a>
+</div>
+
 <!-- footer  -->
 <footer id="footer">
     <div class="nav-row">
