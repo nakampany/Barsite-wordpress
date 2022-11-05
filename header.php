@@ -23,7 +23,7 @@
         <div class="loader_cover loader_cover-down"></div>
     </div>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/bar.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bar.js"></script>
 
     <header id="header">
         <div class="container">
