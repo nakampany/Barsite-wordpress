@@ -36,7 +36,7 @@
                     </svg></a>
             </div>
             <nav id="" class="header-nav d-flex row align-items-center">
-                <a href="" class="col-2"><img src="https://nakampany.website/wp-content/uploads/2022/10/logo.jpg" alt=""></a>
+                <a href="<?php echo home_url(); ?>" class="col-2"><img src="https://nakampany.website/wp-content/uploads/2022/10/logo.jpg" alt=""></a>
                 <ul class="col-10 d-flex justify-content-end">
                     <li><a href="blog" class="btn">BLOG</a></li>
                     <li><a href="about" class="btn">ABOUT</a></li>

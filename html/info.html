@@ -1,125 +1,79 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="最新技術と自然との調和を目指す">
-    <meta name="viewport" content="width=device-width">
-    <title>Bar</title>
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
-    <!-- bootstorap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- icon -->
-    <script src="https://kit.fontawesome.com/7c679e1f70.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" media="all" href="style.about.css">
-</head>
-<body>
-    <header id="header">
-        <div class="container">
-            <div class="SNS">
-                <a href="https://lin.ee/4CemrXl"><svg xmlns="http://www.w3.org/2000/svg"
-                    height="40px" width="40px"
-                    viewBox="0 0 448 512"><path d="M272.1 204.2v71.1c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.1 0-2.1-.6-2.6-1.3l-32.6-44v42.2c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.8 0-3.2-1.4-3.2-3.2v-71.1c0-1.8 1.4-3.2 3.2-3.2H219c1 0 2.1.5 2.6 1.4l32.6 44v-42.2c0-1.8 1.4-3.2 3.2-3.2h11.4c1.8-.1 3.3 1.4 3.3 3.1zm-82-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 1.8 1.4 3.2 3.2 3.2h11.4c1.8 0 3.2-1.4 3.2-3.2v-71.1c0-1.7-1.4-3.2-3.2-3.2zm-27.5 59.6h-31.1v-56.4c0-1.8-1.4-3.2-3.2-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 .9.3 1.6.9 2.2.6.5 1.3.9 2.2.9h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.7-1.4-3.2-3.1-3.2zM332.1 201h-45.7c-1.7 0-3.2 1.4-3.2 3.2v71.1c0 1.7 1.4 3.2 3.2 3.2h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2V234c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2v-11.4c-.1-1.7-1.5-3.2-3.2-3.2zM448 113.7V399c-.1 44.8-36.8 81.1-81.7 81H81c-44.8-.1-81.1-36.9-81-81.7V113c.1-44.8 36.9-81.1 81.7-81H367c44.8.1 81.1 36.8 81 81.7zm-61.6 122.6c0-73-73.2-132.4-163.1-132.4-89.9 0-163.1 59.4-163.1 132.4 0 65.4 58 120.2 136.4 130.6 19.1 4.1 16.9 11.1 12.6 36.8-.7 4.1-3.3 16.1 14.1 8.8 17.4-7.3 93.9-55.3 128.2-94.7 23.6-26 34.9-52.3 34.9-81.5z"/></svg></a>
-                <a href="https://instagram.com/barcloud0801"><svg xmlns="http://www.w3.org/2000/svg"
-                    height="40px" width="40px"
-                    viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
-            </div>
-            <nav id="" class="d-flex row align-items-center">
-                <a href="" class="col-1">LOGO</a>
-                <ul class="col-11 d-flex justify-content-end">
-                    <li><a href="#sec01" class="btn">ABOUT</a></li>
-                    <li><a href="#sec02" class="btn">BLOG</a></li>
-                    <li><a href="#sec03" class="btn">INFO</a></li>
-                </ul>
-            </nav>
-            </div>
-    </header>
-    <div class="container">
-        <ul itemscope itemtype="https://schema.org/BreadcrumbList" class="d-flex">
-            <!-- 1つめ -->
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="ホームのURL">
-                    <span itemprop="name">ホーム</span>
-                </a>
-                <meta itemprop="position" content="1" />
-            </li>
-            <svg xmlns="http://www.w3.org/2000/svg"
-                            height="18px" width="18px" viewBox="0 0 384 650"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
-            <!-- 2つめ -->
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="カテゴリーのURL">
-                    <span itemprop="name">カテゴリー名</span>
-                </a>
-                <meta itemprop="position" content="2" />
-            </li>
-            <svg xmlns="http://www.w3.org/2000/svg"
-            height="18px" width="18px" viewBox="0 0 384 650"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
-            <!-- 3つめ -->
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="子カテゴリーのURL">
-                    <span itemprop="name">子カテゴリー名</span>
-                </a>
-                <meta itemprop="position" content="3" />
-            </li>
-        </ul>
-        
-        <div class="text">
-            <h1 class="main-text">SHOP INFO</h1>
-            <p class="sub-text">店舗情報</p>
-        </div>
-        <hr>
-
-
-
-        <section>
-            <h1 class="heading">INFO</h1>
-            <table>
-                <tbody>
-                    <tr>
-                    <th class="info-th">店名</th>
-                    <td class="info-td">Three8
-                    <span>カフェアンドアミューズメントバー スリーエイト</span></td>
-                    </tr>
-                    <tr>
-                    <th class="info-th">所在地</th>
-                    <td class="info-td">
-                    〒918-8112
-                    福井県福井市下馬3-1302</td>
-                    </tr>
-                    <tr>
-                    <th class="info-th">TEL</th>
-                    <td class="info-td">0776-97-5969</td>
-                    </tr>
-                    <tr>
-                    <th class="info-th">営業時間</th>
-                    <td class="info-td">8:00～0:00</td>
-                    </tr>
-                    <tr>
-                    <th class="info-th">定休日</th>
-                    <td class="info-td">月曜日
-                    <span>祝日の場合、火曜日</span></td>
-                    </tr>
-                    <tr>
-                    <th class="info-th">駐車場</th>
-                    <td class="info-td">25台</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <section>
-            <h1 class="heading">ACCESS</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.7067310351617!2d136.21059725102225!3d36.07625661571528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8bf00efd3d14f%3A0x9597deffd843c306!2z56aP5LqV5aSn5a2m5paH5Lqs44Kt44Oj44Oz44OR44K5!5e0!3m2!1sja!2sjp!4v1664163754845!5m2!1sja!2sjp" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section>
-            <h1 class="heading">CONTACT</h1>
-            <div class="contact text-center">
-                <p>ご予約・お問い合わせはこちら</p>
-                <h1>TEL:0778-42-7704</h1>
-                <h2>営業時間／17:30～2:00 定休日／月曜日 祝日の場合は火曜日定休</h2>
-            </div>
-
-
-        </section>
+<section>
+    <h1 class="heading">INFO</h1>
+    <table>
+        <tbody>
+            <tr>
+            <th class="info-th">店名</th>
+            <td class="info-td">BAR CLOUD
+            <span></span></td>
+            </tr>
+            <tr>
+            <th class="info-th">所在地</th>
+            <td class="info-td">
+            〒915-0091
+            福井県越前市高木町12-2-11
+            <span>JR鯖江駅より約5分</span></td>
+            </tr>
+            <tr>
+            <th class="info-th">TEL</th>
+            <td class="info-td">0778-42-7704</td>
+            </tr>
+            <tr>
+            <th class="info-th">営業時間</th>
+            <td class="info-td">17:30〜26:00</td>
+            </tr>
+            <tr>
+            <th class="info-th">定休日</th>
+            <td class="info-td">月曜日
+            <span></span></td>
+            </tr>
+            <tr>
+            <th class="info-th">その他</th>
+            <td class="info-td">個室あり, 駐車場あり, 喫煙可, コンセントあり</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h1 class="heading">ACCESS</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3230.825040019462!2d136.1889046154903!3d35.92678232407297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8ae5e80cdc317%3A0xf40ef5a150e37839!2z44OQ44O844Kv44Op44Km44OJ!5e0!3m2!1sja!2sjp!4v1664846478894!5m2!1sja!2sjp" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section>
+    <h1 class="heading">CONTACT</h1>
+    <div class="contact text-center">
+        <p>ご予約・お問い合わせはこちら</p>
+        <h1>TEL:0778-42-7704</h1>
+        <h2><span>営業時間／17:30−26:00</span>
+            <span>定休日／月曜日</span></h2>
     </div>
-</body>
-</html>
+</section>
+<section>
+    <div class="pera1-section section diner_store" data-section-id="diner/s_diner_store" data-section-name="店舗案内(3カラム)" id="section-22">
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="heading">FLOOR</h1>
+                <div class="col-lg-4 col-xs-12">
+                    <h3 class="pera1-removable pera1-editable fs-4 my-2">2階 PARTY ROOM</h3>
+                    <figure class="pd_20">
+                        <img src="//cdn.peraichi.com/userData/5cf61bb5-6724-4d27-bded-5ad60a0000c5/img/5cf628de86cfa/original.jpg" alt="" class="pera1-editable pera1-removable e_img rounded">
+                        <figcaption class="pera1-editable pera1-removable fs-7 lh_17 text-center"><span data-custom-sp-fontsize="11px">2階は30名以上収容可能のパーティールームになっております。</span><br><span data-custom-sp-fontsize="11px">ゆったりとしたスペースで仲間内でのご宴会や女子会等、</span><span data-custom-sp-fontsize="11px">いろんな用途でお使いください。</span></figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                <h3 class="pera1-removable pera1-editable fs-4 my-2">1階 GROUP SHEET</h3>
+                    <figure class="pd_20">
+                        <img src="//cdn.peraichi.com/userData/5cf61bb5-6724-4d27-bded-5ad60a0000c5/img/5cf629e5cd9c1/original.jpg" alt="" class="pera1-editable pera1-removable e_img rounded">
+                        <figcaption class="pera1-removable pera1-editable fs-7 lh_17 text-center">テーブル席は4席完備！少人数ならこちらがおすすめ！<br>心地よいソファーで時間を忘れておくつろぎください。</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                <h3 class="pera1-editable pera1-removable fs-4 my-2">1階 COUNTER</h3>
+                    <figure class="pd_20">
+                        <img src="//cdn.peraichi.com/userData/5cf61bb5-6724-4d27-bded-5ad60a0000c5/img/5cf62a0d255ac/original.jpg" alt="" class="pera1-editable pera1-removable e_img rounded">
+                        <figcaption class="pera1-removable pera1-editable fs-7 lh_17 text-center">思わず長居してしまう落ち着きのあるカウンター席。<br>大人な空間をお楽しみください。</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

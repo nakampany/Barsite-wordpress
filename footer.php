@@ -13,10 +13,10 @@
             <img src="https://nakampany.website/wp-content/uploads/2022/10/logo2.png" class="d-flex" alt="">
         </a>
         <ul class="nav justify-content-center">
-            <li><a href="#sec01">BLOG</a></li>
-            <li><a href="#sec02" class="nav-line">ABOUT</a></li>
-            <li><a href="#sec02" class="nav-line nav-line-2">MENU</a></li>
-            <li><a href="#sec04">INFO</a></li>
+            <li><a href="blog">BLOG</a></li>
+            <li><a href="about" class="nav-line">ABOUT</a></li>
+            <li><a href="menu" class="nav-line nav-line-2">MENU</a></li>
+            <li><a href="info">INFO</a></li>
         </ul>
     </div>
     <div class="secondary">
