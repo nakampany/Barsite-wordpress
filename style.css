@@ -375,6 +375,11 @@ img{
 
 /* INFO
 ------------------------------------------------------------*/
+.main-text {
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin: 10px;
+}
 #info {
     padding: 50px 0;
     background-size: cover;
@@ -426,18 +431,6 @@ img{
 }
 .btn-1:hover{
 	opacity: 0.6;
-}
-/*  パンクズリスト
-------------------------------------------------------------*/
-.d-flex li{
-    margin: 10px 5px;
-}
-.d-flex svg{
-    margin-top: 15px;
-}
-.d-flex li a{
-    font-size: 0.7rem;
-    font-weight: 700;
 }
 /* table
 ------------------------------------------------------------*/

@@ -8,10 +8,10 @@
         <?php while (have_posts()) : the_post() ?>
 
             <div class="text">
-                <h1 class="main-text h1"><?php the_title(); ?></h1>
+                <h1 class="main-text px-3 py-5" style="font-size: 3rem;"><?php the_title(); ?></h1>
             </div>
             <hr>
-            <!-- blog  -->
+            <!-- 記事  -->
             <section>
                 <article class="row g-4 fadeUpTrigger" id="<?php the_ID(); ?>" <?php post_class('news'); ?>>
                     <div class="content">
