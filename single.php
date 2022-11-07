@@ -2,18 +2,15 @@
 
 
 <section>
+    <?php echo do_shortcode('[flexy_breadcrumb]'); ?>
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post() ?>
-            <article id="<?php the_ID(); ?>" <?php post_class('entry'); ?>>
-                <h2 class="text-white">
-                    <?php the_category(); ?>
-                    <br>
-                    <time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('Y年m月d日(l)'); ?></time>
-                </h2>
-                <h1 class="text-white p-1">
+            <article id="<?php the_ID(); ?>" <?php post_class('entry'); ?> class="text-center">
+                <h1 class="heading">
                     <?php the_title(); ?>
+                    <?php the_category(); ?>/<time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('Y年m月d日(l)'); ?></time>
                 </h1>
-                <div class="content">
+                <div class="content text-center">
                     <?php the_content(); ?>
                 </div>
             </article>
@@ -23,16 +20,6 @@
     <?php
     endif;
     ?>
-
-    <nav>
-        <span>
-            <?php previous_post_link('%link'); ?>
-        </span>
-        <span>
-            <?php next_post_link('%link'); ?>
-        </span>
-    </nav>
-
 </section>
 
 <?php get_footer(); ?>
