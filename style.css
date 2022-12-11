@@ -11,7 +11,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 ul{list-style:none;}
 table{border-collapse:collapse;border-spacing:0;}
 caption,th{text-align:left;}
-h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 :root{
@@ -101,10 +100,10 @@ a:hover, .active{
 .heading{
     text-align: center;
     font-size: 2.4rem;
-    margin-bottom: 30px;
 }
-.heading h1{
-    border-bottom: 2px solid #333;
+.sub-heading{
+	font-size: 1.2rem;
+	margin-bottom: 30px;
 }
 img{
 	max-width: 100%;
@@ -146,28 +145,18 @@ section{
 #header{
     width: 100%;
 }
-#header .SNS{
-    height: 60px;
-    width: 100%;
-}
-#header .SNS a{
-    float: right;
-    margin: 20px 23px 0px;
-    transition: all 0.1s ease;
-}
-#header .SNS .line{
-	margin-right: 40px;
-}
-#header .SNS a:hover{
-    box-shadow: none;
-    transform: translateY(10px);
-}
 #header nav{
     font-size: 1.3rem;
     height: 80px;
     width: 100%;
 }
-#header nav ul li a{
+.sns a{
+    transition: all 0.1s ease;
+}
+.sns a:hover{
+    transform: translateY(10px);
+}
+#header nav ul li a {
     padding: 20px;
 }
 /*Hamburger Nav
@@ -295,7 +284,7 @@ section{
 /* first view
 ----------------------------------------------------------- */
 #mainImg{
-    background-image: url(https://nakampany.website/wp-content/uploads/2022/10/main-scaled.jpg);
+    background-image: url(https://barcloud-fukui.com/wp-content/uploads/2022/12/main-1-scaled.jpg);
     background-size: cover;
     background-position: center;
     min-height: 630px;
@@ -483,7 +472,7 @@ th {
     border-radius: 5px 0 0 5px;
 }
 .LINE a img {
-    width: 60px;
+    width: 65px;
 }
 
 
