@@ -13,14 +13,15 @@
 
     <div class="row g-4 fadeUpTrigger">
         <?php if (have_posts()) : ?>
+            <?php query_posts('posts_per_page=12'); ?>
             <?php while (have_posts()) : the_post() ?>
                 <article class="col-lg-4 col-sm-6" id="<?php the_ID(); ?>" <?php post_class('news'); ?>>
                     <a href="<?php the_permalink() ?>">
                         <div class="project pro-1">
                             <?php if (has_post_thumbnail()) : ?>
-                                <?php the_post_thumbnail('thumbnail'); ?>
+                                <?php the_post_thumbnail('full'); ?>
                             <?php else : ?>
-                                <img src="https://nakampany.website/wp-content/uploads/2022/10/BH7C6703-scaled.jpg" alt="">
+                                <img src="https://barcloud-fukui.com/wp-content/uploads/2022/12/BH7C6659-scaled.jpg" alt="">
                             <?php endif; ?>
                             <div class="overlay">
                                 <br>

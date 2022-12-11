@@ -2,21 +2,20 @@
 
 <div class="LINE">
     <a href="https://lin.ee/4CemrXl" target="_blank" rel="noopener" class="project">
-        <img src="https://nakampany.website/wp-content/uploads/2022/10/LINE.jpg" alt="LINE友だち追加">
+        <img src="https://barcloud-fukui.com/wp-content/uploads/2022/12/LINE.jpg" alt="LINE友だち追加">
     </a>
 </div>
-
 <!-- footer  -->
 <footer id="footer">
     <div class="nav-row">
         <a href="<?php echo home_url(); ?>">
-            <img src="https://nakampany.website/wp-content/uploads/2022/10/logo2.png" class="d-flex" alt="">
+            <img src="https://barcloud-fukui.com/wp-content/uploads/2022/12/logo2.png" class="d-flex" alt="">
         </a>
         <ul class="nav justify-content-center">
-            <li><a href="https://nakampany.website/blog">BLOG</a></li>
-            <li><a href="https://nakampany.website/about" class="nav-line">ABOUT</a></li>
-            <li><a href="https://nakampany.website/menu" class="nav-line nav-line-2">MENU</a></li>
-            <li><a href="https://nakampany.website/info">INFO</a></li>
+            <li><a href="https://barcloud-fukui.com/blog">BLOG</a></li>
+            <li><a href="https://barcloud-fukui.com/about" class="nav-line">ABOUT</a></li>
+            <li><a href="https://barcloud-fukui.com/menu" class="nav-line nav-line-2">MENU</a></li>
+            <li><a href="https://barcloud-fukui.com/info">INFO</a></li>
         </ul>
     </div>
     <div class="secondary">
