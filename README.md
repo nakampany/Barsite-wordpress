@@ -1,3 +1,3 @@
 # Barsite-wordpress
-barcloudのウェブサイトです。ワードプレス化をしました。
+barcloudのウェブサイトです。
 https://barcloud-fukui.com
