@@ -3,7 +3,7 @@
     <!-- main  -->
     <div id="mainImg">
         <div class="mainTittle d-flex justify-content-center">
-            <h1>Bar Cloud</h1>
+            <h1 class="text-light">Bar Cloud</h1>
         </div>
     </div>
 <?php endif; ?>
@@ -12,10 +12,10 @@
 
     <section>
         <h1 class="heading fadeUpTrigger">BLOG</h1>
-        <h5 class="text-center fadeUpTrigger">ブログ</h5>
+        <h5 class="sub-heading text-center fadeUpTrigger">ブログ</h5>
         <div class="row g-4 fadeUpTrigger">
             <?php if (have_posts()) : ?>
-                <?php query_posts('posts_per_page=6'); ?>
+                <?php query_posts('posts_per_page=3'); ?>
                 <?php while (have_posts()) : the_post() ?>
                     <article class="col-lg-4 col-sm-6" id="<?php the_ID(); ?>" <?php post_class('news'); ?>>
                         <a href="<?php the_permalink() ?>">
@@ -46,14 +46,14 @@
             <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="20px" viewBox="0 0 300 500">
                 <path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
             </svg>
-            <a class="btn btn-more" href="https://barcloud-fukui.com/blog">MORE...</a>
+            <a class="btn btn-more" href="https://barcloud-fukui.com/barcloud/blog/">MORE...</a>
         </div>
     </section>
 
     <!-- about  -->
     <section>
         <h1 class="heading fadeUpTrigger">ABOUT</h1>
-        <h5 class="fadeUpTrigger text-center">私たちについて</h5>
+        <h5 class="sub-heading fadeUpTrigger text-center">私たちについて</h5>
         <div class="fadeUpTrigger">
             <h2 class="intro">私たちについて...</h2>
             <p class="intro-p">
@@ -91,7 +91,7 @@
     <section>
         <div class="fadeUpTrigger">
             <h1 class="heading fadeUpTrigger">MENU</h1>
-            <h5 class="fadeUpTrigger text-center">メニュー</h5>
+            <h5 class="sub-heading fadeUpTrigger text-center">メニュー</h5>
             <h2 class="intro">おすすめメニューは？</h2>
             <p class="intro-p">
                 <span>白いオムライス</span>
@@ -125,7 +125,7 @@
     <!-- info  -->
     <section id="info" class="fadeUpTrigger">
         <h1 class="heading fadeUpTrigger">SHOP INFO</h1>
-        <h5 class="fadeUpTrigger text-center">店舗情報</h5>
+        <h5 class="sub-heading fadeUpTrigger text-center">店舗情報</h5>
         <div class="info_3colmns row fadeUpTrigger py-4">
             <a class="info_content col-lg-4 card-effect" href="https://barcloud-fukui.com/info">
                 <svg class="svg-inline--fa fa-map-marker-alt fa-w-12" aria-hidden="true" data-prefix="fas" data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg" height="40px" width="40px" viewBox="0 0 384 512" data-fa-i2svg="">

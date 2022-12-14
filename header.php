@@ -30,7 +30,7 @@
             <nav id="" class="header-nav d-flex row align-items-center">
                 <a href="<?php echo home_url(); ?>" class="col-2"><img src="https://barcloud-fukui.com/wp-content/uploads/2022/12/logo2.png" alt=""></a>
                 <ul class="col-10 d-flex justify-content-end">
-                    <li><a href="https://barcloud-fukui.com/blog/" class="btn my-3">BLOG</a></li>
+                    <li><a href="https://barcloud-fukui.com/barcloud/blog/" class="btn my-3">BLOG</a></li>
                     <li><a href="https://barcloud-fukui.com/about" class="btn my-3">ABOUT</a></li>
                     <li><a href="https://barcloud-fukui.com/menu" class="btn my-3">MENU</a></li>
                     <li><a href="https://barcloud-fukui.com/info" class="btn my-3">INFO</a></li>
@@ -57,7 +57,7 @@
             <!--ここからメニュー-->
             <div class="menu-content">
                 <ul>
-                    <li class="menu-item"><a href="https://barcloud-fukui.com/blog" class="btn">BLOG</a></li>
+                    <li class="menu-item"><a href="https://barcloud-fukui.com/barcloud/blog/" class="btn">BLOG</a></li>
                     <li class="menu-item"><a href="https://barcloud-fukui.com/about" class="btn">ABOUT</a></li>
                     <li class="menu-item"><a href="https://barcloud-fukui.com/menu" class="btn">MENU</a></li>
                     <li class="menu-item"><a href="https://barcloud-fukui.com/info" class="btn">INFO</a></li>

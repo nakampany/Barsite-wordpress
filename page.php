@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+
+<!--　　固定ページ -->
 <div class="container">
     <?php echo do_shortcode('[flexy_breadcrumb]'); ?>
 
@@ -8,7 +10,8 @@
         <?php while (have_posts()) : the_post() ?>
 
             <div class="text">
-                <h1 class="main-text px-3 py-5" style="font-size: 3rem;"><?php the_title(); ?></h1>
+                <h1 class="main-text"><?php the_title(); ?></h1>
+                <div class="sub-text" style="margin-left: 10px;"><?php the_excerpt(); ?></div>
             </div>
             <hr>
             <!-- 記事  -->
