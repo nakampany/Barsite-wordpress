@@ -3,7 +3,7 @@
     <!-- main  -->
     <div id="mainImg">
         <div class="mainTittle d-flex justify-content-center">
-            <h1 class="text-light">Bar Cloud</h1>
+            <h1 class="text-light">BAR CLOUD</h1>
         </div>
     </div>
 <?php endif; ?>
@@ -54,14 +54,6 @@
     <section>
         <h1 class="heading fadeUpTrigger">ABOUT</h1>
         <h5 class="sub-heading fadeUpTrigger text-center">私たちについて</h5>
-        <div class="fadeUpTrigger">
-            <h2 class="intro">私たちについて...</h2>
-            <p class="intro-p">
-                お食事やリゾート気分を味わえるカフェ＆バー
-                <br>
-                「Bar Cloud」について紹介します!
-            </p>
-        </div>
 
         <div class="column fadeUpTrigger">
             <figure class="column-step">
@@ -92,12 +84,6 @@
         <div class="fadeUpTrigger">
             <h1 class="heading fadeUpTrigger">MENU</h1>
             <h5 class="sub-heading fadeUpTrigger text-center">メニュー</h5>
-            <h2 class="intro">おすすめメニューは？</h2>
-            <p class="intro-p">
-                <span>白いオムライス</span>
-                <br>
-                自家製ボロネーゼライスに、白い黄身の玉子をのせた一品です！
-            </p>
         </div>
 
         <div class="column fadeUpTrigger">
@@ -108,7 +94,7 @@
                 <p class="column-description">
                     お食事やリゾート気分を味わえるカフェ＆バー
                     <br>
-                    「Bar Cloud」について紹介します!
+                    「BAR CLOUD」について紹介します!
                 </p>
                 <p class="button ">
                     <a href="https://barcloud-fukui.com/menu" class="button-effect bgleft">

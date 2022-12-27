@@ -107,7 +107,7 @@
                 <p class="column-description">
                     お食事やリゾート気分を味わえるカフェ＆バー
                     <br>
-                    「Bar Cloud」について紹介します!
+                    「BAR CLOUD」について紹介します!
                 </p>
                 <p class="button ">
                     <a href="https://barcloud-fukui.com/menu" class="button-effect bgleft">
