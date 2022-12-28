@@ -27,6 +27,26 @@ html{
 	color: var(--font);
 }
 
+.flowing {
+	width: 0;
+	margin: 0;
+	font-size: 3vw;
+	font-weight: bold;
+	color: #ff6347;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: flowing-anim 3s forwards linear;
+}
+
+@keyframes flowing-anim {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 100%;
+	}
+}
+
 
 /* loading
 ------------------------------------------------------------*/
@@ -466,7 +486,6 @@ th {
 }
 .contact h1{
     margin: 10px;
-    font-size: 2.5rem;
     color: red;
 }
 

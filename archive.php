@@ -13,7 +13,7 @@
         <!-- ブログ一覧ページ -->
         <h1 class="heading fadeUpTrigger">BLOG</h1>
         <h5 class="sub-heading text-center fadeUpTrigger">ブログ</h5>
-        <div class="row g-5 fadeUpTrigger" style="margin:100px 0;">
+        <div class="row g-5 fadeUpTrigger">
             <?php if (have_posts()) : ?>
                 <?php query_posts('posts_per_page=12'); ?>
                 <?php while (have_posts()) : the_post() ?>
