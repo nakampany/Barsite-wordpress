@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<!-- ブログページ -->
+<!-- ブログ記事ページ -->
 <div class="container">
     <?php echo do_shortcode('[flexy_breadcrumb]'); ?>
 
@@ -22,7 +22,7 @@
                         <div class="content">
                             <?php the_content(); ?>
                         </div>
-                        <a href="https://barcloud-fukui.com/barcloud/blog/" class="button-effect bgleft m-5" style="float: right;"><span>blog一覧へ</span></a>
+                        <a href="https://barcloud-fukui.com/barcloud/blog/" class="button-effect bgleft m-5" style="float: right; border: 1px solid rgb(90, 90, 90);"><span>blog一覧へ</span></a>
                     </article>
                 <?php
                 endwhile;
